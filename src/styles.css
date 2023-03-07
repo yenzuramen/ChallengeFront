@@ -1,0 +1,83 @@
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+/* .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+  margin-bottom: 10px;
+} */
+
+
+.btn_container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_btn {
+  margin-bottom: 10px !important;
+  margin-left: 10px;
+  background-color: rgb(118, 176, 230);
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: azure;
+  border: 0px ;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.del_btn {
+  margin-bottom: 10px !important;
+  margin-left: 10px;
+  background-color: rgb(216, 76, 51);
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: rgb(43, 12, 7);
+  border: 0px ;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
+
+.del_btn:hover,
+.add_btn:hover{
+ transform: scale(1.03);
+}
+
+.parent {
+  overflow: hidden;
+}
+
+/*Styles for draggable an image overlay*/
+.draggable {
+  position: absolute;
+  overflow: hidden;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
