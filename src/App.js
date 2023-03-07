@@ -180,7 +180,7 @@ const Component = ({
 
   const onResize = async (e, imageUrl) => {
 
-    console.log(e);
+    // console.log(e);
     // ACTUALIZAR ALTO Y ANCHO
     let newWidth = e.width;
     let newHeight = e.height;
